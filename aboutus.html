@@ -36,32 +36,72 @@
 
     <div class="about">
 
+        <br><br>
         <h1>About Us</h1>
+
+        <br><br>
+        <h3>Our Mission</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente ullam voluptates dolor dolorem ducimus
             explicabo neque iste quaerat nemo. Quas laudantium officiis soluta consequuntur ullam voluptates maxime
             repellendus.</p>
+        <br>
 
-    </div>
 
-    <nav class="navbar navbar-inverse navbar-bottom" style="padding:0 0 50px 0">
-        <div class="container">
-            <div class="col">
-                <div class="col">
-                    <br><br>
-                    <h5 id='footer-header'> CONTACT INFORMATION </h3>
-                        <div class="col" style="padding: 0 0 0 0px">
-                            <p>Phone:(123)-737-8367</p>
-                            <p>Email: codeforkids@info.com</p>
-                        </div>
-                        <div class="col" style="padding: 0 0 0 0px">
-                            <p>FAQ</p>
-                            <p>Privacy Policy</p>
-                        </div>
-                </div>
 
+        <div>
+            <button type="button" class="btn btn-outline-dark" onclick="toggleCollaborators()"
+                id="collaboratorsButton">Reveal Collaborators</button>
+
+            <div style="display:none;" id="collaborators">
+               
+                <br>
+                <h3>Collaborators</h3>
+                <ul>
+                    <li>Megan Zhang</li>
+                    <li>Neev Gupta</li>
+                    <li>Aiden Lu-Howenthal</li>
+                    <li>Julia Olminkhof</li>
+                </ul>
             </div>
+
+            <script>
+
+                function toggleCollaborators() {
+                    var myCollaborators = document.getElementById('collaborators');
+
+                    var collaboratorsButton = document.getElementById('collaboratorsButton');
+
+                    if (collaborators.style.display === "none") {
+                        collaborators.style.display = "block";
+                    } else {
+                        collaborators.style.display = "none";
+                    }
+
+                }
+
+            </script>
+
         </div>
-    </nav>
+
+        <nav class="navbar navbar-inverse navbar-bottom" style="padding:0 0 50px 0">
+            <div class="container">
+                <div class="col">
+                    <div class="col">
+                        <br><br>
+                        <h5 id='footer-header'> CONTACT INFORMATION </h3>
+                            <div class="col" style="padding: 0 0 0 0px">
+                                <p>Phone:(123)-737-8367</p>
+                                <p>Email: codeforkids@info.com</p>
+                            </div>
+                            <div class="col" style="padding: 0 0 0 0px">
+                                <p>FAQ</p>
+                                <p>Privacy Policy</p>
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
 
 </body>
 
