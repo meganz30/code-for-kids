@@ -10,3 +10,50 @@
 .about {
     text-align: center;
 }
+
+.select-style {
+    background-color: rgb(37, 37, 37);
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.select-style h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 3%;
+}
+.style-examples {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+.style-price {
+    color: #FFFFFF;
+}
+
+.select-style .style-examples .example {
+    color: black;
+    text-align: center;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff !important;
+  }
+  
+  .select-style .style-examples .example h2 {
+    padding-bottom: 4%;
+    font-size: 25px;
+  }
+  
+  .select-style .style-examples .example p {
+    padding-top: 4%;
+    font-size: 20px;
+  }
