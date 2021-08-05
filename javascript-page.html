@@ -5,11 +5,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Javascript Courses</title>
 </head>
 
 <body>
-    <h1>JAVASCRIPT Courses</h1>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Code For Kids</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="language.html">Languages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <br><br>
+    <h1 class="about">Javascript Courses</h1>
+
+    <br><br><br>
+    <div class="container">
+        <div class="row">
+            <!-- HTML Image -->
+            <div class="col-sm">
+                <img class="html-img"
+                    src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                    alt="javascript-logo">
+            </div>
+            <!-- HTML Description -->
+            <div class="col-sm">
+                JavaScript is a fun and flexible programming language. It’s one of the core technologies of web development and can be used on both the front-end and the back-end.
+            </div>
+            <!-- Card leading to options -->
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Interested? Enroll now!</h5>
+                        <p class="card-text">Our specially curated Javascript-specific course provides all the most crucial
+                            information your child could need to start their own Javascript project</p>
+                        <!-- Javascript alert button -->
+                            <button onclick="myFunction()" class="btn btn-primary">Click to Enroll</button>
+
+                        <script>
+                            function myFunction() {
+                                alert("ERROR: There are no available courses");
+                            }
+                        </script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-inverse navbar-bottom" style="padding:0 0 50px 0">
+        <div class="container">
+            <div class="col">
+                <div class="col">
+                    <br><br>
+                    <h5 id='footer-header'> CONTACT INFORMATION </h3>
+                        <div class="col" style="padding: 0 0 0 0px">
+                            <p>Phone:(123)-737-8367</p>
+                            <p>Email: codeforkids@info.com</p>
+                        </div>
+                        <div class="col" style="padding: 0 0 0 0px">
+                            <p>FAQ</p>
+                            <p>Privacy Policy</p>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
 </body>
 
 </html>

@@ -73,3 +73,17 @@
         padding-left: 4rem;
         padding-right: 4rem;
     }
+
+
+    #javacoursestyle {
+    font-family: "Open Sans, sans-serif";
+}
+
+    .backgroundcolorforpages {
+    background-color: black;
+}
+
+    .html-img {
+       max-width:55%;
+       height:auto;
+}
