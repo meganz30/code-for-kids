@@ -57,3 +57,8 @@
     padding-top: 4%;
     font-size: 20px;
   }
+  .buy-hover.bn28 {
+    font-family: "Open Sans", sans-serif;
+    background-image: linear-gradient( to right, #eb3941, #f15e64, #e14e53, #e2373f );
+    box-shadow: 0 5px 15px rgb(242 97 103 / 40%);
+}
