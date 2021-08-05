@@ -61,4 +61,15 @@
     font-family: "Open Sans", sans-serif;
     background-image: linear-gradient( to right, #eb3941, #f15e64, #e14e53, #e2373f );
     box-shadow: 0 5px 15px rgb(242 97 103 / 40%);
-}
+    }
+    .double-space{
+        line-height: 2rem;  
+    }
+    .homeimage2{
+        max-width: 75%;
+    }
+    .hometext2{
+        line-height: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
